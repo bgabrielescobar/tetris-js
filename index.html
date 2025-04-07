@@ -3,10 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Tetris</title>
+    <style>
+      #next {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border: 1px solid white;
+      }
+      #canvas {
+        background: black;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <canvas id="canvas"></canvas>
+    <canvas id="next" width="80" height="80"></canvas>
     <script type="text/javascript" src="./js/main.js"></script>
   </body>
 </html>
